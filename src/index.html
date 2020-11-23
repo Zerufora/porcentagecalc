@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Porcentage Calc</title>
 
-</body>
+        <link rel="icon" href="../global/icon.png">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <center>
+            <div id="container-master">
+                <div id="numbers-input">
+                    <input type="number" id="input-first-number">
+                    <span>% de </span>
+                    <input type="number" id="input-percentage-number">
+                    <button onclick="calcPercentage()">Calcular</button>
+                </div>
+                
+                <div id="results-div">
+                    <p id="results-paragraph">Resultados:</p>
+                </div>
+            </div>
+        </center>
+    </body>
+    <script type="text/javascript" src="calc_percentage_script.js"></script>
 </html>
